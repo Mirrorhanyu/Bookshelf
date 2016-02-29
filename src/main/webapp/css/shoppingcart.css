@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "larkrsanslight";
+    src: url(../fonts/larke_sans_light-webfont.ttf);
+}
+
+body{
+    background-color: rgb(26, 188, 156);
+    font-family: "larkrsanslight";
+}
+.title{
+    margin-left: 36px;
+    font-size: 30px;
+    color: azure;
+}
+.item{
+    background-color: azure;
+    margin: 0px 36px;
+    padding: 10px;
+}
+.addorsub{
+    display: inline-block;
+    float: right;;
+}
+.add .quanity .sub{
+    display: inline;
+}
+.total{
+    font-size: 30px;
+    margin-left: 36px;
+}
+.success{
+    background-color: rgb(230, 126, 34);
+    border: none;
+    margin-left: 36px;
+    padding: 13px 28px;
+    font-size: 16px;
+    color: azure;
+}

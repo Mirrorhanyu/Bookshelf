@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "larkrsanslight";
+    src: url(../fonts/larke_sans_light-webfont.ttf);
+}
+
+body{
+    margin: 0px;
+    font-family: "larkrsanslight";
+}
+.titlebar{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    background-color: rgb(230, 126, 34);
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+.logo{
+    float: left;
+}
+.logotitle{
+    margin-top: 2px;
+    margin-left: 28px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.shoppingcart{
+    margin-top: 16px;
+    width: 210px;
+    float: right;
+}
+.quanity{
+    margin-right: 20px;
+}
+span{
+    display: inline;
+    font-size: 22px;
+}
+

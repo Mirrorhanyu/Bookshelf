@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+}
+.bookself{
+}
+.bookpage{
+    background-color: rgb(26, 188, 156);
+}
+.searchbar{
+    padding-top: 20px;
+    width: 100%;
+    margin: -4px 0px 10px 24px;
+}
+.searchinput{
+    padding-left: 10px;
+    width: 300px;
+    height: 26px;
+    color: black;
+    border-radius: 21px;
+    background-color: rgb(236, 240, 241);
+}
+.bookshow{
+    width: 1260px;
+    height: 4100px;
+    margin: 0px auto;
+}
+.book{
+    padding-top: 30px;
+    padding-left: 18px;
+    width: 280px;
+    height: 290px;
+    background-color: rgb(236, 240, 241);
+    margin: 8px;
+    float: left;
+}
+.image{
+    width: 100%;
+    height: 170px;
+}
+.authors{
+    display: inline-block;
+}
+.author{
+    font-size: 14px;
+    color: dimgray;
+}

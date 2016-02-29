@@ -1,0 +1,31 @@
+.detailbook{
+    margin-top: -3px;
+    background-color: rgb(26, 188, 156);
+}
+.bookpage{
+    width: 1200px;
+    height: 800px;
+    margin: 0px auto;
+}
+.image{
+    margin-top: 30px;
+}
+.authorsdiv{
+    display: inline-block;
+}
+.tagsdiv{
+    display: inline-block;
+}
+.price{
+    font-size: 25px;
+}
+.add{
+    margin-top: 30px;
+    background-color: rgb(230, 126, 34);
+    border: none;
+    padding: 13px 28px;
+    font-size: larger;
+    float: right;
+    float: top;
+    color: azure;
+}

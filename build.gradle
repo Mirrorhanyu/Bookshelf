@@ -1,0 +1,33 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'jetty'
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile(
+            'org.springframework:spring-webmvc:4.0.6.RELEASE',
+            'org.springframework:spring-tx:4.0.5.RELEASE',
+            'org.springframework:spring-jdbc:4.0.6.RELEASE',
+            'commons-dbcp:commons-dbcp:1.4',
+            'org.mongodb:mongo-java-driver:3.2.1',
+            'org.eclipse.persistence:javax.persistence:2.1.0',
+            'jstl:jstl:1.2',
+            'taglibs:standard:1.1.2',
+            'org.immutables:gson:2.1.11',
+            'org.codehaus.jackson:jackson-core-asl:1.1.0'
+    )
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+
+
+

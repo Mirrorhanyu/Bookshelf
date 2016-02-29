@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "larkrsanslight";
+    src: url(../fonts/larke_sans_light-webfont.ttf);
+}
+
+body{
+    background-color: rgb(230, 126, 34);
+    text-align: center;
+}
+
+p{
+    font-family: "larkrsanslight";
+    font-size: 56px;
+    margin-top: 260px;
+    color: azure;
+}
